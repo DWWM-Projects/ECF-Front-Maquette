@@ -2,3 +2,113 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* ###### Partie Header ###### */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 30px;
+}
+
+.contains {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.logs button, a {
+    margin-left: 50px;
+}
+
+.logs button {
+    width: 100px;
+    height: 40px;
+}
+
+/* ###### Fin partie Header ###### */
+
+/* ###### Div présentation ###### */
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentationText {
+    padding-left: 30px;
+}
+
+.ordering {
+    display: flex;
+    flex-direction: row;
+}
+
+.meeting a {
+    margin: 0;
+}
+
+.presentation img {
+    border-radius: 30px;
+    margin-bottom: 50px;
+    height: 350px;
+    width: 512px;
+}
+
+/* ###### Fin div presentation  ###### */
+
+/* ###### Div promotion ###### */
+
+.promotion {
+    display: flex;
+    flex-direction: row;
+}
+
+.promotion img {
+    border-radius: 30px;
+    height: 350px;
+    width: 512px;
+}
+
+.promotionText {
+    padding-left: 60px;
+}
+
+/* ###### Fin div promotion ###### */
+
