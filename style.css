@@ -152,7 +152,7 @@ h1, h2 {
 
 .meeting:hover {
     text-decoration: none;
-    color: #6415ff;
+    color: #6415ff !important;
 }
 
 .meeting svg {
@@ -163,6 +163,13 @@ h1, h2 {
 .meeting a {
     margin-left: 30px;
 }
+
+/* #meetThem {
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px;
+    top: 20%;
+} */
 
 .presentation img {
     border-radius: 30px;
@@ -252,4 +259,96 @@ video {
     width: 100px;
     top: 345px;
     left: -100px;
+}
+
+@media (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 770px;
+        margin: auto;
+    }
+
+    .contains {
+        display: none;
+    }
+
+    #blob {
+        display: none;
+    }
+
+    .presentation {
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .presentationText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ordering {
+        width: 450px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .presentationMedia {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* ###### Partie promotion ###### */
+
+    .promotion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promotion > img {
+        width: 50%;
+        height: 80%;
+        margin-bottom: 20px;
+    }
+
+    .promotionText {
+        text-align: center !important;
+    }
+
+    .promotionText p {
+        margin-left: 200px;
+        
+        width: 50%;
+    }
+
+    #blueText {
+        margin-top: 70px;
+        margin-left: 170px;
+    }
+
+    #dotSvg1 {
+        top: 699px;
+        right: -150px;
+    }
+
+    #dotSvg2 {
+        bottom: -303px;
+        left: 338px;
+    }
+
+
+
+
+
+
+
+
+
 }
