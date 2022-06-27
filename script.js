@@ -19,4 +19,27 @@ $("#meetThem").click(function () {
     $("#video").removeClass("hide");
 })
 
+$("#burger").click(function () {
+    $(".presentationText").css({
+        "opacity": "0",
+    });
+    $(".contains").css({
+        "display": "inline-block",
+    });
+    $("#close").css({
+        "display": "inline-block",
+    })
+})
 
+$("#close").click(function () {
+    $(".presentationText").css({
+        "opacity": "1",
+    });
+    $(".contains").css({
+        "display": "none",
+    });
+    $("#close").css({
+        "display": "none",
+    })
+
+})

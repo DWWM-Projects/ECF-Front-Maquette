@@ -103,6 +103,10 @@ h1, h2 {
     height: 40px;
 }
 
+#burger {
+    display: none;
+}
+
 /* ###### Fin partie Header ###### */
 
 /* ###### Div présentation ###### */
@@ -280,6 +284,10 @@ video {
         display: none;
     }
 
+    #burger {
+        display: inline-block;
+    }
+
     .presentation {
         width: 100%;
         display: inline-block;
@@ -323,8 +331,7 @@ video {
     }
 
     .promotionText p {
-        margin-left: 200px;
-        
+        margin-left: 200px;        
         width: 50%;
     }
 
@@ -343,12 +350,41 @@ video {
         left: 338px;
     }
 
+    .contains {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        width: 45%;
+        height: 280px;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #close {
+        display: none;
+    }
 
+    .links {
+        width: 100%;
+        flex-direction: column;
+    }
 
+    .links a {
+        margin-bottom: 20px;
+    }
 
+    .logs a {
+        margin-bottom: 20px;
+    }
 
+    .logs {
+        width: 100%;
+        flex-direction: column;
+    }
 
-
+    #close {
+        height: 25px;
+        width: 25px;
+    }
 
 }
