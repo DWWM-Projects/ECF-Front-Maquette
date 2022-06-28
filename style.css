@@ -200,6 +200,7 @@ video {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 
 .promotion img {
@@ -231,9 +232,117 @@ video {
     color: #6415ff;
 }
 
-
-
 /* ###### Fin div promotion ###### */
+
+/* ###### Div prestation ###### */
+
+.prestation {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.prestationTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prestationGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.prestationDivision {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ###### Fin div prestation ###### */
+
+/* ###### Div Advertisement ###### */
+
+.advertisement {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.advertisementText {
+    display: flex;
+    flex-direction: column;
+}
+
+.pride {
+    display: flex;
+    flex-direction: row;
+}
+
+.prideDivision {
+    display: flex;
+    flex-direction: column;
+}
+
+.advertisementText button {
+    height: 40px;
+    width: 250px;
+    background-color: #6415ff;
+    color: #ffffff;
+}
+
+.advertisement img {
+    height: 350px;
+    width: 512px;
+}
+
+/* ###### Fin div Advertisement ###### */
+
+/* ###### Footer ###### */
+
+footer {
+    background-color: gray;
+    width: 100%;
+    padding: 50px;
+}
+
+.footerContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.footerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedia svg {
+    height: 50px;
+    width: 50px;
+
+}
+
+
+
+/* ###### Fin Footer ###### */
+
+
 
 #dotSvg1 {
     position: absolute;
