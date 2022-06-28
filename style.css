@@ -107,6 +107,10 @@ h1, h2 {
     display: none;
 }
 
+#close {
+    display: none;
+}
+
 /* ###### Fin partie Header ###### */
 
 /* ###### Div présentation ###### */
