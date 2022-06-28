@@ -292,16 +292,10 @@ video {
 }
 
 .advertisementText {
-    /* display: flex;
-    flex-direction: column; */
     padding-left: 30px;
     padding-right: 30px;
     text-align: justify;
 }
-
-/* .advertisementText > h2 {
-    display: inline-block !important;
-} */
 
 .advertisementText > p {
     width: 550px;
@@ -354,6 +348,13 @@ footer {
     justify-content: space-between;
 }
 
+.infoGroup {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
 .footerInfo {
     display: flex;
     flex-direction: column;
@@ -362,6 +363,10 @@ footer {
 .footerInfo > p:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.footerInfo > h4 {
+    margin-bottom: 15px;
 }
 
 .newsletter input {
@@ -427,12 +432,12 @@ footer {
 
 /* ###### Fin Footer ###### */
 
-
+/* ###### SVG ###### */
 
 #dotSvg1 {
     position: absolute;
     top: 403px;
-    right: 212px;
+    right: 210px;
     z-index: -5;
     height: 100px;
     width: 100px;
@@ -484,14 +489,20 @@ footer {
     right: 80px;
 }
 
+/* ###### Fin SVG ###### */
+
 @media (max-width: 576px) {
     * {
         margin: 0;
         padding: 0;
     }
 
+    body {
+        width: 100vw;
+    }
+
     .container {
-        width: 770px;
+        width: 90%;
         margin: auto;
     }
 
@@ -501,6 +512,11 @@ footer {
 
     #blob {
         display: none;
+    }
+
+    #blob2 {
+        top: 2200px;
+        right: 80px;
     }
 
     #burger {
@@ -517,6 +533,8 @@ footer {
     .presentationText {
         width: 100%;
         text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .ordering {
@@ -527,7 +545,7 @@ footer {
 
     .presentationMedia {
         display: inline-block;
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
 
@@ -542,16 +560,21 @@ footer {
     .promotion > img {
         width: 50%;
         height: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 70px;
     }
 
     .promotionText {
-        text-align: center !important;
+        width: 90%;
+        padding: 0;
+        text-align: center;
     }
 
-    .promotionText p {
-        margin-left: 200px;        
+    .promotionText > p {
+        margin: 0;
+        padding: 0;
         width: 50%;
+        text-align: center;
+        
     }
 
     #blueText {
@@ -560,13 +583,18 @@ footer {
     }
 
     #dotSvg1 {
-        top: 699px;
-        right: -150px;
+        top: 720px;
+        right: 12px;
     }
 
     #dotSvg2 {
-        bottom: -303px;
-        left: 338px;
+        bottom: -240px;
+        left: 240px;
+    }
+
+    #dotSvg3 {
+        bottom: -1940px;
+        left: 240px;
     }
 
     .contains {
@@ -576,7 +604,16 @@ footer {
         width: 45%;
         height: 280px;
         flex-direction: column;
-        align-items: center;
+    }
+
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logs {
+        width: 100%;
+        text-align: center;
     }
 
     #close {
@@ -605,5 +642,79 @@ footer {
         height: 25px;
         width: 25px;
     }
+
+
+    /* ###### Partie Prestation ###### */
+
+    .prestationGroup {
+        flex-direction: column;
+    }
+
+    /* ###### Partie Advertisement ###### */
+
+    .advertisement {
+        width: 70%;
+        margin: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .advertisementText {
+        /* align-items: center; */
+        text-align: center;
+    }
+
+    .advertisementText > p {
+        width: 350px;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .advertisement img {
+        height: 250px;
+        width: 412px;
+        margin-bottom: 60px;
+    }
+
+    #randomButton {
+        margin-bottom: 50px;
+    }
+
+    /* ###### Partie Footer ###### */
+
+    footer {
+        width: 100vw;
+    }
+
+    .footerContainer {
+        width: 90%;
+        margin: auto;
+    }
+
+    .infoGroup {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footerInfo {
+        width: 100px;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+
+    .footerTop {
+        flex-direction: column;
+    }
+
+    .footerBottom {
+        height: 15vh;
+        flex-direction: column;
+    }
+
+
+    
 
 }
