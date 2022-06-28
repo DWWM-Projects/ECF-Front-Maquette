@@ -275,6 +275,11 @@ video {
     margin-left: 0;
 }
 
+.prestationDivision:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
 /* ###### Fin div prestation ###### */
 
 /* ###### Div Advertisement ###### */
@@ -352,6 +357,11 @@ footer {
 .footerInfo {
     display: flex;
     flex-direction: column;
+}
+
+.footerInfo > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .newsletter input {
